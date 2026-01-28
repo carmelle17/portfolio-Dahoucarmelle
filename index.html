@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Dahou Carmelle Charlotte</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+  <nav>
+    <h1>DAHOU <span class="highlight">Carmelle Charlotte</span></h1>
+    <ul>
+      <li><a href="#accueil" class="highlight">Accueil</a></li>
+      <li><a href="#apropos">À propos</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<section id="accueil">
+  <div>
+    <h2>Je suis <span class="highlight">DAHOU</span>, Développeuse en devenir</h2>
+    <p>Passionné par le web et le marketing digital</p>
+    <a href="#projets" class="btn">Voir mes projets</a>
+  </div>
+  <img src="images/illustration.png" alt="Développeur web">
+</section>
+<section id="apropos">
+  <h2><span class="highlight">À propos</span></h2>
+
+  <div class="apropos-content">
+
+    <!-- TEXTE À GAUCHE -->
+    <div>
+      <p>
+        Je m'appelle Dahou, passionnée par la création de sites web modernes et interactifs.
+        Je suis actuellement étudiante en développement web et je cherche à améliorer
+        continuellement mes compétences en HTML, CSS et JavaScript.
+      </p>
+
+      <p>
+        J’aime transformer mes idées en projets concrets, expérimenter, apprendre par la pratique
+        et découvrir de nouvelles technologies afin de progresser et proposer des solutions
+        créatives et efficaces.
+      </p>
+
+      <a href="documents/cv.pdf" target="download class="btn">Télécharger mon CV</a>
+    </div>
+
+    <!-- IMAGE À DROITE -->
+    <img src="images/photo-profil.jpg" alt="Photo de profil">
+
+  </div>
+</section>
+
+<section id="projets">
+  <h2><span class="highlight">Mes Projets</span></h2>
+
+  <div class="projects-container">
+
+    <div class="project-card">
+	
+      <h3>Mini-jeu JavaScript</h3>
+      <p>
+        Application JavaScript permettant de manipuler un tableau de nombres.
+L’utilisateur peut ajouter, supprimer et trier des valeurs dynamiquement
+grâce à la manipulation du DOM et aux événements JavaScript.
+      </p>
+      <span class="tech">#HTML #CSS #JavaScript</span>
+      <a href="images/Tableau Manipulation de DOM.png" target="_blank" class="btn">
+  Voir
+</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Mes campagnes publicitaires</h3>
+      <p>
+        Campagnes publicitaires digitales réalisées pour promouvoir des produits
+ou services, incluant la création de visuels et la stratégie de diffusion.
+
+      </p>
+      <span class="tech">#MarketingDigital #Publicité #Communication #Design
+</span>
+      <a href="images/mes campagnes pubs.png" target="_blank" class="btn">
+  Voir
+</a>
+
+    </div>
+
+    <div class="project-card">
+      <h3>Application JavaScript</h3>
+      <p>
+        Application JavaScript permettant d’effectuer des calculs de prêt
+de manière dynamique à l’aide du DOM.
+      </p>
+      <span class="tech">#JavaScript #HTML #DOM #Calcul
+</span>
+      <a href="images/calculateur de pret.png" target="_blank" class="btn">
+  Voir
+</a>
+
+    </div>
+
+  </div>
+</section>
+<section id="competences">
+  <h2>Mes Compétences</h2>
+
+  <div class="skills">
+
+    <div class="skill-box">
+      <h3>Soft Skills</h3>
+
+      <p>Gestion de projet</p>
+      <progress value="0" max="100" data-value="80"></progress>
+
+      <p>Résolution de problème</p>
+      <progress value="0" max="100" data-value="70"></progress>
+
+      <p>Adaptabilité</p>
+      <progress value="0" max="100" data-value="85"></progress>
+    </div>
+
+    <div class="skill-box">
+      <h3>Hard Skills</h3>
+
+      <p>HTML</p>
+      <progress value="0" max="100" data-value="90"></progress>
+
+      <p>CSS</p>
+      <progress value="0" max="100" data-value="80"></progress>
+      <p>JavaScript</p>
+      <progress value="0" max="100" data-value="70"></progress>
+      <p>VS Code</p>
+      <progress value="0" max="100" data-value="75"></progress>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2>
+    Vous avez un <span>projet</span> en tête ?<br>
+    N’hésitez pas à me <span>contacter</span>
+  </h2>
+
+  <form action="https://formspree.io/f/xeegvpby" method="POST">
+  <input type="text" name="nom" placeholder="Votre nom" required>
+  <input type="text" name="prenom" placeholder="Votre prénom" required>
+  <input type="email" name="email" placeholder="Votre email" required>
+  <input type="text" name="sujet" placeholder="Sujet">
+  <textarea name="message" placeholder="Votre message" required></textarea>
+  <button type="submit">Envoyer</button>
+</form>
+
+</section>
+<footer>
+  <p>Designed by <span>Carmelle</span> with HTML CSS JS</p>
+  <p class="rights">Tous droits réservés – 2025</p>
+</footer>
+  <script src="js/script.js"></script>
+  
+</body>
+</html>
+
